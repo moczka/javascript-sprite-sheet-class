@@ -1,0 +1,32 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+canvas{
+    background: #000; 
+}
+
+.form{
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.buttonControl{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(0,0,255,0.6);
+    border: 1px solid #FFF;
+    
+    
+}
+
+.buttonControl:hover{
+    background-color: rgba(0,255,0,0.6);   
+    
+}
