@@ -32,7 +32,7 @@ The next step, is to call the init() method. The first parameter will be the sou
 
 FULL EXAMPLE: 
 
-    var spriteInfoObject = {
+        var spriteInfoObject = {
                         width: 110,
                         height: 102,
                         from: 0,
