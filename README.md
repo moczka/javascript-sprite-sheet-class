@@ -47,8 +47,19 @@ FULL EXAMPLE:
     numberSprite.setCanvas(mainCanvas);
     numberSprite.init('assets/sprites/numbers.png', spriteInfoObject);
 
+   //IN YOUR DRAW METHOD OR FUNCTION CALL play(x, y) method.
+  
+   numberSprite.play(32, 520);
+
+
+
+
+
+If you want to display only one frame, set the starting frame equal to the final frame. You can change the FPS speed of your sprite sheet animation by using the .setSpeed(speed) method. Please remember that the speed is always in FPS.
+
 Check out all the examples here: 
 
+ https://rawgit.com/moczka/javascript-sprite-sheet-class/master/main.html
 
-
+PS: If you want to change the FPS of one of the animated sprites, tap/click on it and change the number in the field below. Then you can press “UPDATE” to render the changes.
 
